@@ -1,0 +1,48 @@
+{% extends "SiteInternetBundle::template.html.twig" %}
+{% block section %}
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Nous Contacter</h1>
+                        <span class="st-border"></span>
+                    </div>
+                </div>
+                <div class="col-sm-4 contact-info">
+                    <p class="contact-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatum dolorum, possimus tenetur pariatur officia, quo commodi autem doloribus vero rerum aspernatur quidem temporibus.</p>
+                    <p class="st-address"><i class="fa fa-map-marker"></i> <strong>34400 Lunel FRANCE</strong></p>
+                    <p class="st-phone"><i class="fa fa-mobile"></i> <strong>00.00.00.00.00</strong></p>
+                    <p class="st-email"><i class="fa fa-envelope-o"></i> <strong>email@youpy.com</strong></p>
+                    <p class="st-website"><i class="fa fa-globe"></i> <strong>www.au-deladespensees.fr</strong></p>
+                </div>
+                <div class=" col-sm-7 col-sm-offset-1">
+                    <form action="{{ asset ('php/send-contact.php')}}" class="contact-form" name="contact-form" method="post">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="text" name="nom" required="required" placeholder="Nom*">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="email" name="email" required="required" placeholder="Email*">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="text" name="sujet" placeholder="Sujet">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="text" name="lieux" placeholder="Votre lieux">
+                            </div>
+                            <div class="col-sm-12">
+                                <textarea name="message" required="required" cols="30" rows="7" placeholder="Message*"></textarea>
+                            </div>
+                            <div class="col-sm-12">
+                                <input type="submit" name="submit" value="Envoyer" class="btn btn-send">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /CONTACT -->
+{% endblock %}

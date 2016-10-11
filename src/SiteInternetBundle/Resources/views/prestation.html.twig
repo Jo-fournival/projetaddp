@@ -1,0 +1,128 @@
+{% extends "SiteInternetBundle::template.html.twig" %}
+{% block section %}
+    <!-- PRESTATION -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Prestation</h1>
+                        <span class="st-border"></span>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="accueil col-md-8 col-md-offset-2">
+                        <p>Vous avez déménagé, vous manquez de temps ou vous avez des problèmes de mobilité qui empêchent de vous occuper des sépultures de vos proches ?
+                            Notre entreprise vous propose un service de nettoyage et fleurissement professionnels de pierre tombale, colombarium ou concession en terre en respectant vos souhaits et surtout avec respect du lieu et de l'environnement.
+                            Un service de nettoyage complet et traditionnel réalisé avec des produits qui respectent l'environnement, adapté à la nature, de la pierre granit au marbre et autres pierres.
+                            Nous vous débarrassons aussi des mousses, lichens, moisissures.
+                            Nous effectuons le nettoyage des plaques, vases et autres accessoires sur la tombe.
+                            Nous assurons le désherbage autour de la sépulture et dans la/les jardinières, enlèvement des fleurs fanées, rajout de cailloux ou terreau.
+                            Nos prestations sont ouvertes à toutes religions.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 st-service">
+                    <h2> Prestation basic</h2>
+                    <p> Nettoyage + option bougie.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 st-service">
+                    <h2> Prestation silver</h2>
+                    <p> Nettoyage et fleurissement + option bougie.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 st-service">
+                    <h2> Prestation gold</h2>
+                    <p>Nettoyage, fleurissement et ornements + option bougie.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /PRESTATION -->
+
+
+    <!-- TRAVEAUX -->
+    <section id="our-works">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"></div>
+
+                <div class="portfolio-wrapper" >
+
+                    <div class="portfolio-items">
+
+                        <div class="col-md-4 col-sm-6 work-grid wordpress graphic">
+                            <div class="portfolio-content">
+                                <img class="img-responsive" src="{{asset ('images/works/portfolio-1.jpg')}}" alt="">
+                                <div class="portfolio-overlay">
+                                    <a href="{{asset ('images/works/portfolio-1.jpg')}}"><i class="fa fa-camera-retro"></i></a>
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+                                </div>
+                            </div>	
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 work-grid html php bootstrap">
+                            <div class="portfolio-content">
+                                <img class="img-responsive" src="{{asset ('images/works/portfolio-2.jpg')}}" alt="">
+                                <div class="portfolio-overlay">
+                                    <a href="{{asset ('images/works/portfolio-2.jpg')}}"><i class="fa fa-camera-retro"></i></a>
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+                                </div>
+                            </div>	
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 work-grid wordpress graphic">
+                            <div class="portfolio-content">
+                                <img class="img-responsive" src="{{asset ('images/works/portfolio-3.jpg')}}" alt="">
+                                <div class="portfolio-overlay">
+                                    <a href="{{asset ('images/works/portfolio-3.jpg')}}"><i class="fa fa-camera-retro"></i></a>
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+                                </div>
+                            </div>	
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 work-grid html php bootstrap">
+                            <div class="portfolio-content">
+                                <img class="img-responsive" src="{{asset ('images/works/portfolio-4.jpg')}}" alt="">
+                                <div class="portfolio-overlay">
+                                    <a href="{{asset ('images/works/portfolio-4.jpg')}}"><i class="fa fa-camera-retro"></i></a>
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+                                </div>
+                            </div>	
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 work-grid wordpress graphic php">
+                            <div class="portfolio-content">
+                                <img class="img-responsive" src="{{asset ('images/works/portfolio-5.jpg')}}" alt="">
+                                <div class="portfolio-overlay">
+                                    <a href="{{asset ('images/works/portfolio-5.jpg')}}"><i class="fa fa-camera-retro"></i></a>
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+                                </div>
+                            </div>	
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 work-grid html bootstrap graphic">
+                            <div class="portfolio-content">
+                                <img class="img-responsive" src="{{asset ('images/works/portfolio-6.jpg')}}" alt="">
+                                <div class="portfolio-overlay">
+                                    <a href="{{asset ('images/works/portfolio-6.jpg')}}"><i class="fa fa-camera-retro"></i></a>
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+                                </div>
+                            </div>	
+                        </div>
+
+                    </div>				
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /TRAVEAUX -->
+{% endblock %}
