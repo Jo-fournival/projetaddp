@@ -29,7 +29,15 @@
                                 <input type="text" name="sujet" placeholder="Sujet">
                             </div>
                             <div class="col-sm-6">
-                                <input type="text" name="lieux" placeholder="Votre lieux">
+                                <div class="formgroup">
+                                    <select name="lieu" id="inputlieu" class="form-control">
+                                        <option value="0" required="required" placeholder="Lieu">Choisissez votre lieu*</option>
+                                        <option value="1">Lieu 1</option>
+                                        <option value="2">Lieu 2</option>
+                                        <option value="3">Lieu 3</option>
+                                        <option value="4">Autre lieu</option>
+                                    </select>
+               </div>
                             </div>
                             <div class="col-sm-12">
                                 <textarea name="message" required="required" cols="30" rows="7" placeholder="Message*"></textarea>
