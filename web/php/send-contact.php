@@ -19,5 +19,6 @@
 <html lang="fr">
 <head>
 	<script>alert("Nous vous remercions de nous avoir contacté. Nous vous contacterons au plus vite.");</script>
-	<meta HTTP-EQUIV="REFRESH" content="0; url=http://localhost/addp/web/app_dev.php/contact"> 
+	<meta HTTP-EQUIV="REFRESH" content="0; url=http://localhost/auDelaDesPensees/web/app_dev.php/contact"> 
+	<meta charset="utf-8"> 
 </head>
