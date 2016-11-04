@@ -379,7 +379,7 @@
 	}
 
 	.section-title h1{
-		margin-top: 0;
+		margin-top: 150px;
 	}
 
 	.st-service{
@@ -421,12 +421,12 @@
 	    transition-property:transform, opacity;
 	}
 
-	#our-works{
+	#travaux{
 		padding-top: 130px;
 		padding-bottom: 120px;
 	}
 
-	.portfolio-wrapper ul.filter{
+	.travaux-structure ul.filter{
 		list-style: none;
 		padding: 0;
 		margin-bottom: 35px;
@@ -434,32 +434,32 @@
 		overflow: hidden;
 	}
 
-	.portfolio-wrapper ul.filter li{
+	.travaux-structure ul.filter li{
 		float: left;
 		text-transform: uppercase;
 		margin-right: 25px;
 		font-weight: 600;
 	}
 
-	.portfolio-wrapper ul.filter li a{
+	.travaux-structure ul.filter li a{
 		color: #909090;
 	}
 
-	.portfolio-wrapper ul.filter li a:hover,
-	.portfolio-wrapper ul.filter li a.active{
+	.travaux-structure ul.filter li a:hover,
+	.travaux-structure ul.filter li a.active{
 		color: #000;
 	}
 
-	.portfolio-wrapper .portfolio-items{
+	.travaux-structure .travaux-objets{
 		clear: both;
 	}
 
-	.portfolio-wrapper .portfolio-content{
+	.travaux-structure .portfolio-content{
 		position: relative;
 		margin-bottom: 30px;
 	}
 
-	.portfolio-wrapper .portfolio-overlay{
+	.travaux-structure .portfolio-overlay{
 		position: absolute;
 		background-color: rgba(0, 0, 0, 0.7);
 		color: #fff;
@@ -481,7 +481,7 @@
 		transform: scale(0.5);
 	}
 
-	.portfolio-wrapper .portfolio-content:hover .portfolio-overlay{
+	.travaux-structure .portfolio-content:hover .portfolio-overlay{
 		opacity: 1;
 		-moz-transform: scale(1);
 		-webkit-transform: scale(1);
@@ -490,11 +490,11 @@
 		transform: scale(1);
 	}
 
-	.portfolio-wrapper .portfolio-overlay a{
+	.travaux-structure .portfolio-overlay a{
 		color: #fff;
 		font-size: 35px;
 	}
-	.portfolio-wrapper .portfolio-overlay a:hover{
+	.travaux-structure .portfolio-overlay a:hover{
 		color: #fff;
 	}
 
@@ -502,13 +502,13 @@
 
 /* 8. Pix */
 	
-	#pricing{
+	#prix{
 		background-color: #f5f5f5;
 		padding-top: 130px;
 		padding-bottom: 120px;
 	}
 
-	.st-pricing{
+	.st-prix{
 		background-color: #fff;
 		padding: 40px;
 		margin-top: 30px;
@@ -519,37 +519,37 @@
 		transition: all 0.2s ease-in-out;
 	}
 
-	.st-pricing:hover{
+	.st-prix:hover{
 		box-shadow: 0px 0px 18px #ddd;
 	}
 
-	.st-pricing h5{
+	.st-prix h5{
 		margin-top: 0;
 		margin-bottom: 25px;
 	}
 
-	.st-pricing h3{
+	.st-prix h3{
 		margin-top: 0;
 		margin-bottom: 25px;
 	}
 
-	.st-pricing .st-border{
+	.st-prix .st-border{
 		width: 100%;
 		margin-bottom: 15px;
 		background-color: #ccc;
 	}
 
-	.st-pricing ul{
+	.st-prix ul{
 		list-style: none;
 		padding: 0;
 	}
 
-	.st-pricing ul li{
+	.st-prix ul li{
 		padding: 12px 0;
 		font-size: 15px;
 	}
 
-	.st-pricing a.btn-send{
+	.st-prix a.btn-send{
 		text-transform: uppercase;
 		margin-top: 20px;
 		padding: 10px 25px;
